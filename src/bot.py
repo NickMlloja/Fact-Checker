@@ -22,12 +22,12 @@ async def on_ready():
 async def on_message(message):
 
     if client.user in message.mentions:
-        
+
         print(message.content)
 
         if debug:
             print("Bot mentioned.")
-        
+
         reaction = False
         truth_value = 0
         for char in message.content:
