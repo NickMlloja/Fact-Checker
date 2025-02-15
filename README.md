@@ -6,7 +6,8 @@ A discord bot that arbitrarily but deterministically applies the True or False M
    - The bot will need permissions to read messages and add reactions.
    - The bot will also need emojis called "true" and "false", and you may need to update the emoji-ids in `bot.py`.
    - Learn more [here](https://discordpy.readthedocs.io/en/stable/discord.html).
-
+- Run `poetry install` from the root.
+- Run `python src/bot.py` from the root.
 
 # Scripts
 - From the root run `./.venv/Scripts/Activate` to activate the virtual environment.
